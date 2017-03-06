@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+}
+body {
+	padding: 20px;
+}
+div {
+	padding: 20px;
+	border: solid 1px #999;
+}
+p {
+	text-indent: 2em;
+}
+.parent {
+	background-color: #eee;
+	position: relative;
+	min-height: 442px;
+	zoom: 1;
+}
+.parent:after {
+	content: '';
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	display: block;
+}
+.ch1 {
+	width: 158px;
+	background-color: #fff;
+	float: left;
+}
+.ch2 {
+	margin-left: 220px;
+	margin-right: 140px;
+	position: relative;
+	background-color: #fff;
+}
+.ch3 {
+	width: 78px;
+	background-color: #fff;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.logo {
+	width: 38px;
+	height: 38px;
+	margin-bottom: 20px;
+	background-color: #eee;
+}
