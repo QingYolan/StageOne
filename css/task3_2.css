@@ -13,29 +13,30 @@ p {
 }
 .parent {
 	background-color: #eee;
-	position: relative;
-	min-height: 442px;
 	min-width: 450px;
+	zoom: 1;
+}
+.parent:after {
+	content: '';
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	display: block;
 }
 .ch1 {
 	width: 158px;
 	background-color: #fff;
-	position: absolute;
-	left: 20px;
-	top: 20px;
+	float: left;
 }
 .ch2 {
 	margin-left: 220px;
 	margin-right: 140px;
-	position: relative;
 	background-color: #fff;
 }
 .ch3 {
 	width: 78px;
 	background-color: #fff;
-	position: absolute;
-	right: 20px;
-	top: 20px;
+	float: right;
 }
 .logo {
 	width: 38px;
