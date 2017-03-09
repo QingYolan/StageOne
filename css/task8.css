@@ -14,12 +14,12 @@
 	float: left;
 	min-height: 1px;
 	padding: 10px;
-	margin: 10px 0;
-    height: 50px;
-    border: solid 1px #999;
+}
+.content {
+	height: 50px;
+	border: solid 1px #999;
     background-color: #eee;
 }
-
 .col-xs-2 {
     width: 16.66%;
 }
