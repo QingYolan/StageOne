@@ -1,8 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 .parent {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
+	padding: 20px;
 }
 .parent div {
 	width: 150px;
@@ -24,13 +30,11 @@
 	height: 220px;
 	border: solid 1px #0f0;
 }
-@media (max-width: 640px) {
+@media (max-width: 639px) {
 	.parent {
 		flex-flow: row wrap;
 		align-items: flex-start;
 	}
-}
-@media (max-width: 623px) {
 	.ch1,.ch2,.ch3 {
 		order: 1;
 	}
