@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.parent {
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.ch1,.ch2 {
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+}
+.ch1 {
+	border-radius: 0 0 50px 0;
+}
+.ch2 {
+	border-radius: 50px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
